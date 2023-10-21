@@ -12,6 +12,8 @@ update-url = https://raw.githubusercontent.com/lari4/sr-conf/main/conf_for_ru in
 
 [Rule]
 GEOIP,RU,DIRECT
+DOMAIN-SUFFIX,.ru,DIRECT
+DOMAIN-SUFFIX,.рф,DIRECT
 FINAL,PROXY
 
 [Host]
